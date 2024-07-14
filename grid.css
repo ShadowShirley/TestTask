@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -42,6 +43,11 @@ body{
 
 .picture{
     clip-path: ellipse(70% 75% at 39% 37%);
+
+}
+.picture2{
+    clip-path: inset(0 0 round 0 0 140px 0);
+
 }
 .big-picture{
     clip-path: inset(10% 0 0 0);

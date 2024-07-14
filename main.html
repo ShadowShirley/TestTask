@@ -6,6 +6,7 @@
     <title>TestTask</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 
@@ -31,30 +32,32 @@
 
 
     <div class="container mx-auto main-grid"> <!--Таблица-->
-        <div class="grid lg:grid-cols-3 gap-20 text-center drop-shadow-md ">
-            <div class="relative overflow-hidden rounded-t-xl h-[340px] w-[464px]">
-                <img src="./Task/1.png" class="rounded-tl-xl rounded-tr-xl">
-            </div>
-            <div class="absolute cursor-pointer bg-white rounded-[12px] grid-block flex flex-wrap flex-col items-center rounded-tl-[48px]">
-                <span class="card-1-title flex items-center text-balance font-semibold text-xl text-center">Специальные цены на заселение в отелях</span>
-                <ul class="card-1-description font-medium text-base list-item text-left list-disc">
-                    <li>Отель Южный</li>
-                    <li>Отель Hampton by Hilton Volgograd</li>
-                    <li>Отель Старт</li>
-                    <li>Парк-отель Клево</li>
-                </ul>
-                <div>
-                    <p class="card-2-description font-medium text-base text-left">
-                        20% скидка от тарифа, действующего на момент
-                        бронирования (завтраки бесплатно, скидка именная,
-                        не подлежит передаче другим лицам)
-                        Не действует в отеле, где работает сотрудник.
-                        Не активна в период с 01.05 по 10.05.
-                    </p>
+        <div class="grid 2xl:grid-cols-3 gap-20 xl:grid-cols-2 lg:grid-cols-2 justify-items-center text-center drop-shadow-md hover:drop-shadow-lg">
+            <div class="relative hover:drop-shadow-lg">
+                <div class="overflow-hidden rounded-t-xl h-[340px] w-[464px]">
+                    <img src="./Task/1.png" class="rounded-tl-xl rounded-tr-2xl">
+                </div>
+                <div class="absolute h-100% w-[464px] bottom-0 cursor-pointer bg-white rounded-[12px] grid-block flex flex-wrap flex-col items-center rounded-tl-[48px]">
+                    <span class="card-1-title flex items-center text-balance font-semibold text-xl text-center">Специальные цены на заселение в отелях</span>
+                    <ul class="card-1-description font-medium text-base list-item text-left list-disc">
+                        <li>Отель Южный</li>
+                        <li>Отель Hampton by Hilton Volgograd</li>
+                        <li>Отель Старт</li>
+                        <li>Парк-отель Клево</li>
+                    </ul>
+                    <div>
+                        <p class="card-2-description font-medium text-base text-left">
+                            20% скидка от тарифа, действующего на момент
+                            бронирования (завтраки бесплатно, скидка именная,
+                            не подлежит передаче другим лицам)
+                            Не действует в отеле, где работает сотрудник.
+                            Не активна в период с 01.05 по 10.05.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class=" bg-white relative rounded-[12px] grid-block cursor-pointer ">
+            <div class=" bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg ">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/2.png" class="rounded-tl-xl scale-125 picture">
                 </div>
@@ -66,9 +69,9 @@
                 </div>
 
             </div>
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer ">
-                <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
-                    <img src="./Task/3.png" class="rounded-tl-xl scale-125 picture">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg ">
+                <div class=" overflow-hidden rounded-t-xl h-[340px] picture2">
+                    <img src="./Task/3.png" class="rounded-tl-xl scale-125 picture2">
                 </div>
                 <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
                     <p class=" text-balance font-semibold text-xl items-center">
@@ -78,7 +81,7 @@
                     <p class="font-semibold text-xl items-center">в Конфетках-Бараночках</p>
                 </div>
             </div>
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer ">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg">
                 <div class=" overflow-hidden rounded-t-xl h-[330px] picture ">
                     <img src="./Task/4.png" class="rounded-tl-xl picture big-picture ">
                 </div>
@@ -91,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer ">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/5.png" class="rounded-tl-xl scale-125 picture">
                 </div>
@@ -102,7 +105,7 @@
                     <p class="font-semibold text-xl items-center">на мероприятия</p>
                 </div>
             </div>
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer ">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/6.png" class="rounded-tl-xl scale-125 picture">
                 </div>
@@ -114,7 +117,7 @@
                     <p class="font-semibold text-xl items-center">сотрудника</p>
                 </div>
             </div>
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer ">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/7.png" class="rounded-tl-xl scale-125 picture">
                 </div>
@@ -124,7 +127,7 @@
                     </p>
                 </div>
             </div>
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer ">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/8.png" class="rounded-tl-xl scale-125 picture">
                 </div>
@@ -135,7 +138,7 @@
                     </p>
                 </div>
             </div>
-            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer git add README.md">
+            <div class="bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/9.png" class="rounded-tl-xl scale-125 picture">
                 </div>
