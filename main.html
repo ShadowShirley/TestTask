@@ -32,12 +32,12 @@
 
 
     <div class="container mx-auto main-grid"> <!--Таблица-->
-        <div class="grid 2xl:grid-cols-3 gap-20 xl:grid-cols-2 lg:grid-cols-2 justify-items-center text-center drop-shadow-md hover:drop-shadow-lg">
+        <div class="grid 2xl:grid-cols-3 gap-y-5 gap-x-5 xl:grid-cols-2 lg:grid-cols-2 justify-items-center text-center drop-shadow-md hover:drop-shadow-lg">
             <div class="relative hover:drop-shadow-lg">
-                <div class="overflow-hidden rounded-t-xl h-[340px] w-[464px]">
+                <div class="overflow-hidden rounded-t-xl h-[340px] w-100%">
                     <img src="./Task/1.png" class="rounded-tl-xl rounded-tr-2xl">
                 </div>
-                <div class="absolute h-100% w-[464px] bottom-0 cursor-pointer bg-white rounded-[12px] grid-block flex flex-wrap flex-col items-center rounded-tl-[48px]">
+                <div class="absolute h-100% w-100% bottom-0 cursor-pointer bg-white rounded-[12px] grid-block flex flex-wrap flex-col items-center rounded-tl-[48px]">
                     <span class="card-1-title flex items-center text-balance font-semibold text-xl text-center">Специальные цены на заселение в отелях</span>
                     <ul class="card-1-description font-medium text-base list-item text-left list-disc">
                         <li>Отель Южный</li>
@@ -59,9 +59,16 @@
 
             <div class=" bg-white relative rounded-[12px] grid-block cursor-pointer hover:drop-shadow-lg ">
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
-                    <img src="./Task/2.png" class="rounded-tl-xl scale-125 picture">
+                    <img src="./Task/2.png" class="rounded-tl-xl z-20 scale-125 picture">
                 </div>
-                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="bg-slate-200 overflow-hidden z-30 reversed-radius-clip absolute h-[96px] w-[96px] bottom-[120px] right-0">
+                    <div class=" bg-slate-800 overflow-hidden z-10 bg-cover reversed-radius  absolute h-[96px] w-[96px]">
+
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col items-center justify-center bg-white z-40 absolute card-description-2 rounded-b-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0 ">
                     <p class=" text-balance font-semibold text-xl items-center">
                         Специальные цены
                     </p>
@@ -73,7 +80,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/3.png" class="rounded-tl-xl scale-125 picture">
                 </div>
-                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class=" text-balance font-semibold text-xl items-center">
                         Специальные цены
                     </p>
@@ -85,7 +92,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[330px] picture ">
                     <img src="./Task/4.png" class="rounded-tl-xl picture big-picture ">
                 </div>
-                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class=" text-balance font-semibold text-xl items-center">
                         Специальные цены
                     </p>
@@ -98,7 +105,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/5.png" class="rounded-tl-xl scale-125 picture">
                 </div>
-                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class=" text-balance font-semibold text-xl items-center">
                         Пригласительные билеты
                     </p>
@@ -109,7 +116,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/6.png" class="rounded-tl-xl scale-125 picture">
                 </div>
-                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class=" text-balance font-semibold text-xl items-center">
                         Предоставление выходного
                     </p>
@@ -121,7 +128,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/7.png" class="rounded-tl-xl scale-125 picture">
                 </div>
-                <div class="flex items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class="flex text-balance font-semibold text-xl w-[320px] h-[96px] items-center">
                         Обучение у лучших специалистов в отрасли
                     </p>
@@ -131,7 +138,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/8.png" class="rounded-tl-xl scale-125 picture">
                 </div>
-                <div class="flex items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class="flex  text-balance font-semibold text-xl w-[250px] h-[96px] items-center">
                         Программа
                         «Приведи друга»
@@ -142,7 +149,7 @@
                 <div class=" overflow-hidden rounded-t-xl h-[340px] picture">
                     <img src="./Task/9.png" class="rounded-tl-xl scale-125 picture">
                 </div>
-                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[464px] bottom-0">
+                <div class="flex flex-col items-center justify-center bg-white absolute card-description-2 rounded-[12px] rounded-tl-[48px] h-[120px] w-[100%] bottom-0">
                     <p class=" text-balance font-semibold text-xl items-center">
                         Командировки
                     </p>
