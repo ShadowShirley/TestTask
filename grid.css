@@ -44,9 +44,15 @@ body{
 .reversed-radius{
     clip-path: circle(100% at 0 0);
 }
-.picture12{
-    clip-path: ellipse(70% 75% at 39% 37%);
+.picture-left{
+    clip-path: polygon(0 0, 95% 0, 70% 100%, 0% 100%);
 
+}
+.picture-up{
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 60%);
+}
+.picture-right-down{
+    clip-path: circle(16% at 78% 62%);
 }
 .picture32{
     width:100%;
